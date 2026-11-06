@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vstgui-ui-description version="1">
+  <resources>
+    <bitmaps>
+      <bitmap name="panel" path="panel.png"/>
+      <bitmap name="knob_big" path="knob_big.png"/>
+      <bitmap name="knob_small" path="knob_small.png"/>
+      <bitmap name="knob_mini" path="knob_mini.png"/>
+      <bitmap name="vu_face" path="vu_face.png"/>
+      <bitmap name="vu_glass" path="vu_glass.png"/>
+    </bitmaps>
+  </resources>
+  <template name="view" class="CViewContainer" size="1120, 550" background-color="~ BlackCColor" transparent="false">
+    <view class="CustomView" custom-view-name="BlackfacePanel" origin="0, 0" size="1120, 550"/>
+  </template>
+</vstgui-ui-description>
